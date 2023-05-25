@@ -637,6 +637,32 @@ http://www.templatemo.com/tm-515-eatery
     background: rgba(0,0,0,0.8);
   }
 
+  /*---------------------------------------
+      CALENDAR     
+  -----------------------------------------*/
+
+  #calendar{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+
+  .responsive-calendar-wrapper {
+    position: relative;
+    padding-bottom: 75%; /* A megfelelő arány beállítása a reszponzív mérethez */
+    height: 0;
+    overflow: hidden;
+  }
+
+  .responsive-calendar-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
 
 
   /*---------------------------------------
